@@ -9,5 +9,9 @@ class Post < ActiveRecord::Base
       self.post_categories.build(category: category)
     end
   end
+  
+  def stuff
+    put "stuff"
+  end 
 
 end
